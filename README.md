@@ -237,3 +237,17 @@ Planned production enhancements:
 dotnet publish -c Release -o publish
 docker build -t simpleapi .
 ```
+
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss improvements.
+
+---
+ 
+
+## ⭐ Why This Project Exists
+
+This repository serves as a **minimal but real-world starting template** for modern .NET API development using best practices without unnecessary complexity.
