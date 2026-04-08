@@ -63,3 +63,30 @@ Now analyze the following error:
 [PASTE ERROR MESSAGE HERE]
 
 
+
+--
+##=============================
+
+Act as a production support engineer for ASP.NET Core.
+
+Diagnose this running application issue using this order:
+
+1. Logs analysis
+2. Dependency Injection validation
+3. Database connectivity
+4. Middleware pipeline order
+5. Endpoint mapping
+6. Environment configuration
+
+Provide:
+
+* root cause
+* exact fix
+* corrected code
+* verification steps
+
+Error/logs:
+[PASTE LOG HERE]
+
+
+
