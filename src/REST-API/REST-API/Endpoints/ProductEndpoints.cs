@@ -10,8 +10,7 @@ public static class ProductEndpoints
     public static void MapProductEndpoints(this WebApplication app)
     {
         var group = app.MapGroup("/api/products")
-            .WithName("Products")
-            .WithOpenApi();
+            .WithName("Products");
 
         group.MapGet("/", GetAllProducts)
             .WithName("GetAllProducts")

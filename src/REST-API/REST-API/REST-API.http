@@ -1,6 +1,40 @@
 @REST_API_HostAddress = http://localhost:5203
 
-GET {{REST_API_HostAddress}}/weatherforecast/
+### Get all products
+GET {{REST_API_HostAddress}}/api/products
 Accept: application/json
+
+###
+
+### Get product by ID
+GET {{REST_API_HostAddress}}/api/products/1
+Accept: application/json
+
+###
+
+### Create a product
+POST {{REST_API_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Laptop",
+  "price": 1200.00
+}
+
+###
+
+### Update a product
+PUT {{REST_API_HostAddress}}/api/products/1
+Content-Type: application/json
+
+{
+  "name": "Laptop Pro",
+  "price": 1500.00
+}
+
+###
+
+### Delete a product
+DELETE {{REST_API_HostAddress}}/api/products/1
 
 ###
